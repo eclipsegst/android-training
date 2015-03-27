@@ -1,4 +1,4 @@
-package com.example.ptwme.app;
+package com.example.training.app;
 
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
