@@ -7,6 +7,9 @@
 ![Lesson 2](https://github.com/eclipsegst/sunshine/blob/master/images/device-2015-03-30-011150.png)
 
 #### Lesson 3: New Activities and Intents
+![Lesson 3](https://github.com/eclipsegst/sunshine/blob/master/images/device-2015-03-30-163716.png)
+![Lesson 3](https://github.com/eclipsegst/sunshine/blob/master/images/device-2015-03-30-183036.png)
+![Lesson 3](https://github.com/eclipsegst/sunshine/blob/master/images/device-2015-03-30-183109.png)
 
 #### Lesson 4A: Activity Lifecycle and Data
 
