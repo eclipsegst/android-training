@@ -9,6 +9,8 @@
     <!-- Menu label -->
     <string name="action_settings">Settings</string>
     <string name="action_refresh" translatable="false">Refresh</string>
+    <string name="action_map">Map Location</string>
+    <string name="action_share">Share</string>
 
     <!--Preference in Settings-->
 
