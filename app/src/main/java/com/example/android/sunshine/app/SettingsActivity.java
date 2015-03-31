@@ -1,10 +1,12 @@
-package com.example.android.sunshine;
+package com.example.android.sunshine.app;
 
 import android.os.Bundle;
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceManager;
+
+import com.example.android.sunshine.R;
 
 /**
  * Created by zztg2 on 03/30/2015.
