@@ -21,7 +21,7 @@
     <string name="pref_location_key" translatable="false">location</string>
 
     <!--Default postal code for location preference [CHAR LIMIT=NONE -->
-    <string name="pref_location_default" translatable="false">65201</string>
+    <string name="pref_location_default" translatable="false">94043</string>
 
     <!--Label for temperature units preference [CHAR LIMIT=30] -->
     <string name="pref_units_label">Temperature Units</string>
@@ -41,5 +41,8 @@
     <!--Value for imperial option in temperature unit preference [CHAR LIMIT=NONE-->
     <string name="pref_units_imperial" translatable="false">imperial</string>
 
+    <!-- SyncAdapter related -->
+    <string name="sync_account_type">sunshine.example.com</string>
+    <string name="content_authority">com.example.android.sunshine.app</string>
 
 </resources>

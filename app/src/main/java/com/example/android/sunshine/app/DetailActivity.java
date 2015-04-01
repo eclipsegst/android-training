@@ -15,7 +15,7 @@ import android.view.ViewGroup;
 import android.support.v7.widget.ShareActionProvider;
 import android.widget.TextView;
 
-import com.example.android.sunshine.R;
+import com.example.android.sunshine.app.R;
 
 
 public class DetailActivity extends ActionBarActivity {
