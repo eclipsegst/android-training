@@ -14,6 +14,7 @@
 #### Lesson 4A: Activity Lifecycle and Data
 
 #### Lesson 4B: Content Providers
+![Lesson 3](https://github.com/eclipsegst/sunshine/blob/master/images/device-2015-04-01-175315.png)
 
 #### Lesson 4C: Hooking it Up with Loaders
 
