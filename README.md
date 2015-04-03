@@ -24,6 +24,6 @@ Complete Main Activity Layout with Different Layout for Today and Future Day
 Complete Detail Activity Layout, Move DetailFragment to a separate file.
 ![Lesson 5](https://github.com/eclipsegst/sunshine/blob/master/images/device-2015-04-03-161348.png)
 Complete Build 2-Pane Tablet, Handle List Item Click, Configure Theme
-![Lesson 5](https://github.com/eclipsegst/sunshine/blob/master/images/device-2015-04-03-108603.png)
-![Lesson 5](https://github.com/eclipsegst/sunshine/blob/master/images/device-2015-04-03-108637.png)
+![Lesson 5](https://github.com/eclipsegst/sunshine/blob/master/images/device-2015-04-03-180603.png)
+![Lesson 5](https://github.com/eclipsegst/sunshine/blob/master/images/device-2015-04-03-180637.png)
 #### Lesson 6: Services and Notifications
