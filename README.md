@@ -19,5 +19,6 @@
 #### Lesson 4C: Hooking it Up with Loaders
 
 #### Lesson 5: Rich and Responsive Layouts
-
+Complete Main Activity Layout with Different Layout for Today and Future Day
+![Lesson 3](https://github.com/eclipsegst/sunshine/blob/master/images/device-2015-04-03-152311.png)
 #### Lesson 6: Services and Notifications
