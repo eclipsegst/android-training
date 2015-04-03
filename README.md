@@ -14,11 +14,13 @@
 #### Lesson 4A: Activity Lifecycle and Data
 
 #### Lesson 4B: Content Providers
-![Lesson 3](https://github.com/eclipsegst/sunshine/blob/master/images/device-2015-04-01-175315.png)
+![Lesson 4B](https://github.com/eclipsegst/sunshine/blob/master/images/device-2015-04-01-175315.png)
 
 #### Lesson 4C: Hooking it Up with Loaders
 
 #### Lesson 5: Rich and Responsive Layouts
 Complete Main Activity Layout with Different Layout for Today and Future Day
-![Lesson 3](https://github.com/eclipsegst/sunshine/blob/master/images/device-2015-04-03-152311.png)
+![Lesson 5](https://github.com/eclipsegst/sunshine/blob/master/images/device-2015-04-03-152311.png)
+Complete Detail Activity Layout, Move DetailFragment to a separate file.
+![Lesson 5](https://github.com/eclipsegst/sunshine/blob/master/images/device-2015-04-03-161348.png)
 #### Lesson 6: Services and Notifications
