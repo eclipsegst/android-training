@@ -36,7 +36,7 @@
         <provider
             android:authorities="com.example.android.sunshine.app"
             android:name=".data.WeatherProvider"
-            android:exported="false"
+            android:exported="true"
             android:syncable="true" />
     </application>
 
