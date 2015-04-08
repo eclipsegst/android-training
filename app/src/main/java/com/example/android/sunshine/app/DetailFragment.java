@@ -84,9 +84,10 @@ public class DetailFragment extends Fragment implements LoaderManager.LoaderCall
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        Bundle argumets = getArguments();
-        if (argumets != null) {
-            mUri = argumets.getParcelable(DetailFragment.DETAIL_URI);
+
+        Bundle arguments = getArguments();
+        if (arguments != null) {
+            mUri = arguments.getParcelable(DetailFragment.DETAIL_URI);
         }
 
         View rootView = inflater.inflate(R.layout.fragment_detail, container, false);
@@ -110,11 +111,11 @@ public class DetailFragment extends Fragment implements LoaderManager.LoaderCall
         // Retrieve the share menu item
         MenuItem menuItem = menu.findItem(R.id.action_share);
 
-        // Get the provider and hold onto it ot set/change the shre intent.
+        // Get the provider and hold onto it to set/change the share intent.
         mShareActionProvider = (ShareActionProvider) MenuItemCompat.getActionProvider(menuItem);
 
-        // If onLoadFinished happens before this, we can go ahead and set th eshare intent now.
-        if(mForecast != null) {
+        // If onLoadFinished happens before this, we can go ahead and set the share intent now.
+        if (mForecast != null) {
             mShareActionProvider.setShareIntent(createShareForecastIntent());
         }
     }

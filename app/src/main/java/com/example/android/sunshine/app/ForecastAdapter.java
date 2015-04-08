@@ -12,8 +12,6 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
 /**
  * {@link ForecastAdapter} exposes a list of weather forecasts
  * from a {@link android.database.Cursor} to a {@link android.widget.ListView}.
@@ -37,7 +35,7 @@ public class ForecastAdapter extends CursorAdapter {
         public final TextView highTempView;
         public final TextView lowTempView;
 
-        public ViewHolder (View view) {
+        public ViewHolder(View view) {
             iconView = (ImageView) view.findViewById(R.id.list_item_icon);
             dateView = (TextView) view.findViewById(R.id.list_item_date_textview);
             descriptionView = (TextView) view.findViewById(R.id.list_item_forecast_textview);
@@ -50,9 +48,6 @@ public class ForecastAdapter extends CursorAdapter {
         super(context, c, flags);
     }
 
-    /*
-        Remember that these views are reused as needed.
-     */
     @Override
     public View newView(Context context, Cursor cursor, ViewGroup parent) {
         // Choose the layout type
@@ -68,6 +63,7 @@ public class ForecastAdapter extends CursorAdapter {
                 break;
             }
         }
+
         View view = LayoutInflater.from(context).inflate(layoutId, parent, false);
 
         ViewHolder viewHolder = new ViewHolder(view);
@@ -76,11 +72,9 @@ public class ForecastAdapter extends CursorAdapter {
         return view;
     }
 
-    /*
-        This is where we fill-in the views with the contents of the cursor.
-     */
     @Override
     public void bindView(View view, Context context, Cursor cursor) {
+
         ViewHolder viewHolder = (ViewHolder) view.getTag();
 
         int viewType = getItemViewType(cursor.getPosition());
@@ -99,21 +93,14 @@ public class ForecastAdapter extends CursorAdapter {
             }
         }
 
-        // Read weather icon ID from cursor
-        int weatherId = cursor.getInt(ForecastFragment.COL_WEATHER_ID);
-
-
-
-
         // Read date from cursor
         long dateInMillis = cursor.getLong(ForecastFragment.COL_WEATHER_DATE);
-
-        // Find TextView and set weather formatted date on it
+        // Find TextView and set formatted date on it
         viewHolder.dateView.setText(Utility.getFriendlyDayString(context, dateInMillis));
 
         // Read weather forecast from cursor
         String description = cursor.getString(ForecastFragment.COL_WEATHER_DESC);
-        // Find TestView and set weather forecast on it
+        // Find TextView and set weather forecast on it
         viewHolder.descriptionView.setText(description);
 
         // For accessibility, add a content description to the icon field
@@ -134,6 +121,7 @@ public class ForecastAdapter extends CursorAdapter {
     public void setUseTodayLayout(boolean useTodayLayout) {
         mUseTodayLayout = useTodayLayout;
     }
+
     @Override
     public int getItemViewType(int position) {
         return (position == 0 && mUseTodayLayout) ? VIEW_TYPE_TODAY : VIEW_TYPE_FUTURE_DAY;
