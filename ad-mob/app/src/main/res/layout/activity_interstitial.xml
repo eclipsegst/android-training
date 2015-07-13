@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.example.zz.admob.InterstitialActivity">
+
+    <Button
+        android:id="@+id/loadButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/interstitial_load"
+        android:onClick="loadInterstitial"/>
+    <Button
+        android:id="@+id/showButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/interstitial_not_ready"
+        android:onClick="showInterstitial"/>
+
+</LinearLayout>
