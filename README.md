@@ -1,7 +1,7 @@
 Android Developer Nanodegree
 =============================
 
-This is a android traning project based on Nanodegree Courses build by Google in Udacity. You can find the course belowing.
+This is an android traning project based on Nanodegree Courses built by Google in Udacity. You can find the course below.
 
 Nanodegree Courses
 =============================
