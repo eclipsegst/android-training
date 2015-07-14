@@ -3,4 +3,21 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_city">City Activity</string>
+
+    <string name="action_city">City Map</string>
+    <string name="san_francisco">San Francisco</string>
+    <string name="new_york">New York</string>
+    <string name="tokyo">Tokyo</string>
+
+
+    <string name="action_marker">Marker</string>
+    <string name="title_activity_marker">Marker Activity</string>
+
+    <string name="action_shape">Shape</string>
+    <string name="title_activity_shape">Shape Activity</string>
+
+    <string name="action_street">Street View</string>
+    <string name="title_activity_street_view">Street View Activity</string>
+
 </resources>
